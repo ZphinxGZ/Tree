@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tree</title>
+    
+</head>
+
+<body>
+    <div class="main">
+        <div class="nameproject">
+            <h1>Binare Serch Tree</h1>
+        </div>
+        <div class="content">
+            <form action="#" class="formm">
+                <div class="laname">
+                    <label for="">ใส่ตัวเลขที่จะเพิ่มลงใน Tree :</label>
+                    <input type="number" id="num">
+                </div>
+                <div class="bottonrow1">
+                    <button onclick="addData()">เพิ่มข้อมูล</button>
+                </div>
+                <div class="buttonrow2">
+                    <button onclick="displayInOrder()">InOrder</button>
+                    <button onclick="displayPostOrder()">PostOrder</button>
+                    <button onclick="displayPreOrder()">PreOrder</button>
+                </div>
+            </form>
+
+            <div class="dislab">
+                <label for="" id="disaddData"></label>
+                <br>
+                <label for="" id="disdisData"></label>
+                <br>
+                <label for="" id="inOrder"></label>
+                <br>
+                <label for="" id="postOrder"></label>
+                <br>
+                <label for="" id="preOrder"></label>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
